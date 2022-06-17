@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-    <groupId>com.belong</groupId>
-    <artifactId>belong</artifactId>
+    <groupId>com.renqing</groupId>
+    <artifactId>renqing</artifactId>
     <version>1.0.0</version>
 
-    <name>belong</name>
-    <url>http://www.belong.com</url>
-    <description>belong项目模版</description>
+    <name>renqing</name>
+    <url>http://www.renqing.com</url>
+    <description>renqing项目模版</description>
 
     <properties>
-        <belong.version>1.0.0</belong.version>
+        <renqing.version>1.0.0</renqing.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -212,49 +212,49 @@
 
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.belong</groupId>
-                <artifactId>belong-quartz</artifactId>
-                <version>${belong.version}</version>
+                <groupId>com.renqing</groupId>
+                <artifactId>renqing-quartz</artifactId>
+                <version>${renqing.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
-                <groupId>com.belong</groupId>
-                <artifactId>belong-generator</artifactId>
-                <version>${belong.version}</version>
+                <groupId>com.renqing</groupId>
+                <artifactId>renqing-generator</artifactId>
+                <version>${renqing.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.belong</groupId>
-                <artifactId>belong-framework</artifactId>
-                <version>${belong.version}</version>
+                <groupId>com.renqing</groupId>
+                <artifactId>renqing-framework</artifactId>
+                <version>${renqing.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.belong</groupId>
-                <artifactId>belong-system</artifactId>
-                <version>${belong.version}</version>
+                <groupId>com.renqing</groupId>
+                <artifactId>renqing-system</artifactId>
+                <version>${renqing.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.belong</groupId>
-                <artifactId>belong-common</artifactId>
-                <version>${belong.version}</version>
+                <groupId>com.renqing</groupId>
+                <artifactId>renqing-common</artifactId>
+                <version>${renqing.version}</version>
             </dependency>
 
         </dependencies>
     </dependencyManagement>
 
     <modules>
-        <module>belong-admin</module>
-        <module>belong-framework</module>
-        <module>belong-system</module>
-        <module>belong-quartz</module>
-        <module>belong-generator</module>
-        <module>belong-common</module>
+        <module>renqing-admin</module>
+        <module>renqing-framework</module>
+        <module>renqing-system</module>
+        <module>renqing-quartz</module>
+        <module>renqing-generator</module>
+        <module>renqing-common</module>
     </modules>
     <packaging>pom</packaging>
 
