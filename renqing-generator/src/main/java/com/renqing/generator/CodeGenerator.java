@@ -36,11 +36,11 @@ public class CodeGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://121.37.21.190:3306/test");
+        dsc.setUrl("jdbc:mysql://121.37.21.190:3306/renqing");
         // dsc.setSchemaName("public");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
-        dsc.setUsername("renqing");
-        dsc.setPassword("renqing123");
+        dsc.setUsername("belong");
+        dsc.setPassword("Belong123");
         mpg.setDataSource(dsc);
 
         // 包配置
